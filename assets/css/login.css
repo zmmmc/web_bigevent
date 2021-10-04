@@ -8,48 +8,48 @@ body {
   background-size: cover;
 }
 
-.loginAndRegBox {
+.loginIn{
   width: 400px;
-  height: 310px;
-  background-color: #fff;
+  height: 350px;
+  background-color: white;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  /* 偏移元素自身一半的距离 */
+  transform: translate(-50%,-50%);
 }
 
-.title-box {
-  height: 60px;
-  background: url('/assets/images/login_title.png') no-repeat center;
+.title-box{
+  font-size: 20px;
+  color: rgb(0, 81, 255);
+  text-align: center;
+  letter-spacing: 5px;
+  padding: 30px 0 30px 0;
 }
 
-.reg-box {
+.reg-box{
   display: none;
 }
 
-.layui-form {
-  padding: 0 30px;
+.layui-form{
+  padding: 0px 20px 0 20px;
 }
 
-.links {
+.links{
   display: flex;
   justify-content: flex-end;
 }
 
-.links a {
-  font-size: 12px;
-}
-
-.layui-form-item {
+.layui-form-item{
   position: relative;
 }
 
-.layui-icon {
+.layui-icon{
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left:10px;
+  top:10px;
 }
 
-.layui-input {
+.layui-input{
   padding-left: 32px;
 }

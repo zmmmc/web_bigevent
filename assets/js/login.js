@@ -45,7 +45,7 @@ $(function () {
     })
   })
 
-  //监听登录的提交事件
+  //监听登录提交事件
   $('#form_login').submit(function (e) {
     e.preventDefault()
     $.ajax({

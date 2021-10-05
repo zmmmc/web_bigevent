@@ -1,58 +1,48 @@
-.layui-footer {
+.layui-footer{
   text-align: center;
   font-size: 12px;
 }
 
-.iconfont {
+.iconfont{
   margin-right: 8px;
 }
 
-.layui-icon {
-  margin-right: 8px;
+.layui-icon{
   margin-left: 20px;
+  margin-right: 8px;
 }
 
-iframe {
+iframe{
   width: 100%;
   height: 100%;
 }
 
-.layui-body {
+.layui-body{
   overflow: hidden;
 }
 
-a {
-  transition: none !important;
-}
-
-.userinfo {
-  height: 60px;
-  line-height: 60px;
+.userinfo{
+  height: 55px;
+  line-height: 55px;
   text-align: center;
-  font-size: 12px;
-  user-select: none;
 }
 
-.layui-side-scroll .userinfo {
-  border-bottom: 1px solid #282b33;
-}
-
-.layui-nav-img {
+.layui-nav-img{
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 
-.text-avatar {
+.text-photo{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #009688;
-  border-radius: 50%;
   line-height: 40px;
   text-align: center;
+  border-radius: 50%;
+  background-color: #009688;
+  margin-right: 8px;
   font-size: 20px;
-  color: #fff;
   position: relative;
   top: 4px;
-  margin-right: 10px;
 }

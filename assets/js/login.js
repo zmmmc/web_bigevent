@@ -58,7 +58,7 @@ $(function () {
           return layer.msg('用户名或密码错误！')
         }
         layer.msg('登陆成功')
-        console.log(res.token)
+        localStorage.setItem('token', res.token)
         //跳转到后台主页
         location.href = '/index.html'
       }

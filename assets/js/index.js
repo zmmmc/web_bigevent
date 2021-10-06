@@ -2,7 +2,7 @@ $(function () {
 
   //获取用户基本信息
   getUserInfo()
-
+})
   function getUserInfo() {
     $.ajax({
       method: 'get',
@@ -28,6 +28,7 @@ $(function () {
       //   }
       // }
     })
+
   }
 
 
@@ -63,4 +64,4 @@ $(function () {
       layer.close(index)
     })
   })
-})
+

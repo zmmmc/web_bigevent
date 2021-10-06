@@ -1,0 +1,16 @@
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  margin: 15px;
+}
+
+.layui-form{
+  width: 400px;
+}
+
+.layui-btn{
+  margin-left: 110px;
+}
